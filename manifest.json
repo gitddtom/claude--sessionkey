@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "3.0",
+    "content_scripts": [
+      {
+        "matches": ["https://claude.ai/*"],
+        "js": ["popup.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["tabs", "scripting"],
+    "host_permissions": ["https://claude.ai/*"]
+  }
+  
