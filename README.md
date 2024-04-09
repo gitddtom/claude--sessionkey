@@ -16,3 +16,5 @@ claude使用sessionkey一键登陆插件
 输入账号的sessionkey 即可实现一键登录(需要特殊网络换环境)
 
 
+账号购买网址-- https://tomfk.top/ 
+
