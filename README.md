@@ -1,5 +1,5 @@
 claude使用sessionkey一键登陆插件
-
+谷歌浏览器claude登录插件
 下载文件解压到指定文件夹a
 
 使用教程
