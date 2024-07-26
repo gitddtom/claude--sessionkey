@@ -1,5 +1,5 @@
 claude使用sessionkey一键登陆插件
-
+谷歌浏览器claude登录插件
 下载文件解压到指定文件夹a
 
 使用教程
@@ -11,7 +11,8 @@ claude使用sessionkey一键登陆插件
 5. 
    然后就可以使用插件了
    
-![image](https://github.com/gitddtom/claude--sessionkey/assets/162774068/f7bb9925-c6ac-4d4e-99b2-92005039ab83)
+![image](https://github.com/gitddtom/claude--sessionkey/assets/162774068/af17e01e-bd04-4cbc-a592-0ff15fc08449)
+
 
 输入账号的sessionkey 即可实现一键登录(需要特殊网络换环境)
 
