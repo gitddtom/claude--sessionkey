@@ -26,13 +26,22 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
 
-
-
-
-
-
-
   function setCookieCode(sessionKey) {
-    document.cookie = "sessionKey=" + sessionKey + "; path=/";
-  }
-  
+    // 设置Cookie的属性
+    var domain = ".claude.ai"; // 确保域名与当前页面匹配
+    var path = "/";
+    //var expires = new Date(new Date().getTime() + 24 * 60 * 60 * 1000).toUTCString(); // 设置过期时间为1天后
+    var secure = true; // 仅在HTTPS连接中传输
+    var sameSite = "Lax"; // 使用SameSite属性
+
+    // 构建Cookie字符串
+    var cookieString = "sessionKey=" + sessionKey + "; " +
+                       "domain=" + domain + "; " +
+                       "path=" + path + "; " +
+                       //"expires=" + expires + "; " +
+                       (secure ? "secure; " : "") +
+                       "SameSite=" + sameSite;
+
+    // 设置Cookie
+    document.cookie = cookieString;
+}
